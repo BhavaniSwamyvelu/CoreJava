@@ -8,6 +8,7 @@ public abstract class _61AbstractClass {
 	static {
 		System.out.println("Abstract Class static block");
 	}
+	
 	{
 		System.out.println("Abstract Class Instance Block");
 	}

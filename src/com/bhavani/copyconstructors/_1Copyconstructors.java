@@ -9,9 +9,9 @@ public class _1Copyconstructors {
 		this.dVal = dVal;
 	}
 
-	public _1Copyconstructors(_1Copyconstructors ref) {
-		iVal = ref.iVal;
-		dVal = ref.dVal;
+	public _1Copyconstructors(_1Copyconstructors ref1) {
+		iVal = ref1.iVal;
+		dVal = ref1.dVal;
 	}
 
 	public static void main(String[] args) {

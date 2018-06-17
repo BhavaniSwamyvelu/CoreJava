@@ -9,6 +9,7 @@ public class _3DeepCopy {
 		_3DeepCopy ref = new _3DeepCopy();
 		System.out.println(ref);
 		ref.iVal = 100;
+		System.out.println(ref.iVal);
 		
 		_3DeepCopy ref1 = new _3DeepCopy();
 		ref1.iVal = ref.iVal;

@@ -5,4 +5,11 @@ public interface _51Interface {
 
 	void printMessage();
 
+	default void get() {
+		System.out.println("get1");
+	}
+	
+	default void set() {
+		System.out.println("set1\nset1");
+	}
 }
