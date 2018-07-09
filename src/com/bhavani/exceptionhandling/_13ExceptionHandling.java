@@ -16,7 +16,7 @@ public class _13ExceptionHandling {
 			try {
 				ref.printValue(10);
 			} catch (NullPointerException e1) {
-				System.err.println("hjdfkvd");
+				System.err.println("Null Pointer Exception");
 				e1.printStackTrace();
 			}
 		}
